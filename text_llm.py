@@ -109,8 +109,7 @@ def process_pdf(pdf_path):
     return topics, ml_lists, summaries
 
 # Example PDF file path
-pdf_path = "Machine learning for a sustainable energy future.pdf"
-#pdf_path = "Machine learning in agriculture domain- A state-of-art survey.pdf"
+pdf_path = "Machine learning in agriculture domain- A state-of-art survey.pdf"
 
 # Process the PDF
 topics, ml_lists, summaries = process_pdf(pdf_path)
